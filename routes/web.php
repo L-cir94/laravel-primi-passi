@@ -13,10 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Route::get('/', function () {
-    return view('home');
-}); */
 Route::get('/', function () {
-    return 'hello world!';
-});
+    //CREAIAMO DUE VARIABILI
+    $pageTitle = 'about me';
+    $classNumber = 91;
+    $data = [
+        'name' => 'Luca',
+        'surname' => 'Cirigliano',
+        'address' => 'Via Tal Dei Tali 88 Desio MB',
+        'message' => 'Ricordati che devi morire!'
 
+    ];
+    return view('about', compact('pageTitle', 'classNumber'), $data);
+});
