@@ -16,7 +16,7 @@
 <body>
   <header>
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs" id="navId">
+    <ul class="nav nav-tabs bg-dark text-white" id="navId">
         <li class="nav-item">
             <a href="#tab1Id" class="nav-link active">Active</a>
         </li>
@@ -33,7 +33,7 @@
             <a href="#tab5Id" class="nav-link">Another link</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link disabled">Disabled</a>
+            <a href="#" class="nav-link">Disabled</a>
         </li>
     </ul>
     
